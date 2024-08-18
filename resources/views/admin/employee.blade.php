@@ -21,7 +21,6 @@
         <i class="mdi mdi-eye mr-2"></i> View PDF
     </button>
 </form>
-
 <form action="{{route('employees.downloadPDF')}}" method="POST" style="display: inline;">
     @csrf
     <button type="submit" class="btn btn-danger btn-sm btn-flat">

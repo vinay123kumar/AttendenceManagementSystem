@@ -9,7 +9,6 @@
             {{ trans('global.show') }} {{ trans('cruds.finger_device.title') }}
 
         </div>
-
         <div class="card-body">
 
             <div class="form-group">

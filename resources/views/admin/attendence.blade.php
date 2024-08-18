@@ -65,10 +65,7 @@
                                             <td>{{ $attendance->employee->schedules->first()->time_in }} </td>
                                             <td>{{ $attendance->employee->schedules->first()->time_out }}</td>
                                         </tr>
-
                                     @endforeach
-
-
                                 </tbody>
                             </table>
                         </div>

@@ -19,6 +19,7 @@ class LeaveController extends Controller
         return view('admin.leave')->with(['leaves' => Leave::all()]);
     }
 
+
     public function indexOvertime()
     {
         return view('admin.overtime')->with(['overtimes' => Overtime::all()]);

@@ -14,8 +14,6 @@
                     <input type="hidden" name="_method" value="PUT">
                     <div class="form-group">
                         <label for="name" class="col-sm-3 control-label">Name</label>
-
-
                         <input type="text" class="form-control" id="name" name="name" value="{{ $employee->name }}"
                             required>
 

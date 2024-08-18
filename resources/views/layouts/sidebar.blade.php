@@ -1,7 +1,6 @@
 <!-- ========== Left Sidebar Start ========== -->
 <div class="left side-menu">
     <div class="slimscroll-menu" id="remove-scroll">
-
         <!--- Sidemenu -->
         <!-- Log on to codeastro.com for more projects! -->
         <div id="sidebar-menu">

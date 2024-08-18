@@ -9,6 +9,7 @@
             {{ trans('global.edit') }} {{ trans('cruds.finger_device.title_singular') }}
 
         </div>
+        
 
         <div class="card-body">
 

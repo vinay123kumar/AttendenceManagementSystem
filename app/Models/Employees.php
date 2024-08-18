@@ -30,6 +30,7 @@ class Employees extends Model
         return $this->hasMany(Checks::class);
     }
 
+
     public function attendance()
     {
         return $this->hasMany(Attendance::class);

@@ -6,6 +6,7 @@ use Rats\Zkteco\Lib\ZKTeco;
 class FingerHelper
 {
     protected $zk;
+    
 
     // public function __construct($ip = '127.0.0.1', $port = 4370)
     // {

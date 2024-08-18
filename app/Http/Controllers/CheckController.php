@@ -16,6 +16,7 @@ class CheckController extends Controller
         return view('admin.check')->with(['employees' => Employees::all()]);
     }
 
+
     public function CheckStore(Request $request)
     {
         if (isset($request->attd)) {

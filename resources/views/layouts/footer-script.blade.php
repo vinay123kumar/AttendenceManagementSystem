@@ -6,6 +6,7 @@
 <script src="{{ URL::asset('assets/js/waves.min.js') }}"></script>
 
  @yield('script')
+ 
 
 <!-- App js-->
 <script src="{{ URL::asset('assets/js/app.js') }}"></script>

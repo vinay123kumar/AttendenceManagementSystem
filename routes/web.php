@@ -26,7 +26,6 @@ Route::group(['middleware' => ['auth', 'Role'], 'roles' => ['admin']], function 
     Route::get('/latetime', [AttendanceController::class, 'indexLatetime'])->name('indexLatetime');
     Route::get('/leave', [LeaveController::class, 'index'])->name('leave');
     Route::get('/overtime', [LeaveController::class, 'indexOvertime'])->name('indexOvertime');
-
     Route::get('/admin', [AdminController::class, 'index'])->name('admin');
 
     Route::resource('/schedule', ScheduleController::class);

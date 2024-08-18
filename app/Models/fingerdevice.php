@@ -33,5 +33,6 @@ class fingerdevice extends Model
     ];
 
     protected $table ='fingerdevices';
+    
 }
 

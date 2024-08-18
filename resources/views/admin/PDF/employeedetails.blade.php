@@ -27,6 +27,7 @@
             padding: 12px;
             text-align: left;
         }
+        
         th {
             background-color: #4CAF50;
             color: #fff;

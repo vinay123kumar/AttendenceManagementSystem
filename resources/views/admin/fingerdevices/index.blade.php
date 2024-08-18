@@ -159,8 +159,6 @@
 
                                 @endif  --}}
 
-
-
                                     <a class="btn btn-xs btn-outline-success"
 
                                        href="{{ route('finger_device.add.employee', $finger_device->id) }}">

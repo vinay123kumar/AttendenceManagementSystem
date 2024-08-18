@@ -17,6 +17,7 @@ class ScheduleController extends Controller
     }
 
 
+
     public function store(ScheduleEmp $request)
     {
         $request->validated();

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespsace App\Http\Controllers;
 
 use DateTime;
 use App\Models\Employee;
@@ -14,13 +14,13 @@ use App\Models\latetimes;
 
 class AttendanceController extends Controller
 {
-    //show attendance
+
     public function index()
     {
         return view('admin.attendence')->with(['attendances' => Attendance::all()]);
     }
 
-    //show late times
+    //show late time
     public function indexLatetime()
     {
         return view('admin.latetime')->with(['latetimes' => latetimes::all()]);

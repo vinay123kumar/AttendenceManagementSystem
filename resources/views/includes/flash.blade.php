@@ -15,7 +15,6 @@ timer: 2500,
 
 @if (session()->has('flash_message_overlay'))
 
-
 <script>
     swal({
 title: "{{session('flash_message_overlay.title')}}",

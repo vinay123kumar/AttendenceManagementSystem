@@ -30,7 +30,6 @@
                             </div>
                         @enderror
                     </div>
-
                     <div class="form-group">
                         <label for="position">Position <i>{without any space}</i></label>
                         <input type="text" class="form-control" placeholder="Enter Employee's Position [hyphen accepted]" id="position" name="position"  />

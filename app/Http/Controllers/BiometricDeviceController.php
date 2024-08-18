@@ -81,6 +81,7 @@ class BiometricDeviceController extends Controller
         return redirect()->route('finger_device.index');
     }
 
+
     public function show(fingerdevice $fingerDevice)
     {
         return view('admin.fingerDevices.show', compact('fingerDevice'));

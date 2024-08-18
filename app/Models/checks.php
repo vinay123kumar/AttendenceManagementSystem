@@ -11,4 +11,5 @@ class checks extends Model
     {
         return $this->belongsTo(Employees::class);
     }
+
 }

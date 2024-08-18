@@ -11,4 +11,5 @@ class latetimes extends Model
     {
         return $this->belongsTo(Employees::class, 'emp_id');
     }
+    
 }

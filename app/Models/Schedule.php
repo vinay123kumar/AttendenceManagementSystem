@@ -16,4 +16,5 @@ class Schedule extends Model
     {
         return $this->belongsToMany('App\Models\Employee', 'schedule_employees', 'schedule_id', 'emp_id');
     }
+    
 }

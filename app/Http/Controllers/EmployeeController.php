@@ -95,6 +95,7 @@ class EmployeeController extends Controller
         return $pdf->stream();
     }
 
+
     public function downloadPDF()
     {
         $employees = Employees::all();

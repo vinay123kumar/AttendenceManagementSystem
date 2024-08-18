@@ -53,12 +53,6 @@
                                 <td>{{ $employee->position }}</td>
                                 <!-- <td>{{ $employee->id }}</td> -->
 								<!-- Log on to codeastro.com for more projects! -->
-
-
-
-
-
-
                                 @for ($i = 1; $i < $today->daysInMonth + 1; ++$i)
 
 

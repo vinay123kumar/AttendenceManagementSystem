@@ -12,9 +12,7 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="javascript:void(0);">Home</a></li>
             <li class="breadcrumb-item"><a href="javascript:void(0);">Schedule</a></li>
-			<!-- Log on to codeastro.com for more projects! -->
-
-
+			<!-- Log on to codeastro.com for more projects! --
         </ol>
     </div>
 @endsection

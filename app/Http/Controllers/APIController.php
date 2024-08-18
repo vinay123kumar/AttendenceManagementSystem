@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
-use App\Models\Employee;
+use App\Models\Employees;
 use App\Models\Attendance;
 use App\Models\Check;
 use App\Models\Leave;
@@ -19,7 +19,7 @@ class ApiController extends Controller
     {
         $request->validated();
 
-        if ($employee = Employee::whereEmail(request('email'))->first()) {
+        if ($employee = Employees::whereEmail(request('email'))->first()) {
 
             if (Hash::check($request->pin_code, $employee->pin_code)) {
 
